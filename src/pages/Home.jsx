@@ -60,7 +60,8 @@ const Home = () => {
       <section className="final-section">
         <div className="final-container">
           <div className="final-image">
-            <img src="/src/assets/images/gym-scene.png" alt="AI fitness demonstration" />
+          <img src="/move-it/assets/images/gym-scene.png" alt="AI fitness demonstration" />
+
           </div>
           <div className="final-text-box">
             <h2>Introducing MOVE IT</h2>
