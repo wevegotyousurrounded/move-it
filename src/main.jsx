@@ -6,7 +6,8 @@ import "./assets/css/styles.css"; // Global Styles
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* Add the basename to support GitHub Pages */}
+    <BrowserRouter basename="/move-it">
       <App />
     </BrowserRouter>
   </React.StrictMode>
