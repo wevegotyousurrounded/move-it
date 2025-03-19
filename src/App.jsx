@@ -8,6 +8,8 @@ import Plans from "./pages/Plans";
 import About from "./pages/About";
 import Footer from "./components/Footer";
 import "./assets/css/styles.css";
+import { Navigate } from "react-router-dom";
+
 
 function App() {
   return (
